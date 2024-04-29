@@ -458,8 +458,6 @@
     display: none;
     animation: fadeIn ease-in 1s;
     z-index: 1;
-
-
 }
 .header__search-option::after {
 
@@ -514,9 +512,7 @@
     box-shadow: 0 0 3px #ccc;
     border-radius: 3px;
     display: none;
-    z-index: 1;
-    
-    
+    z-index: 2;
 }
 .header__search-history-heading {
     /* border: 2px solid #ccc; */
