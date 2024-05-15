@@ -1,0 +1,61 @@
+/* mobile and tablet*/
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .app__container {
+        margin-top: 35px;
+    }
+    .header__sort-bar {
+        display: flex;
+        position: fixed;
+    }
+   
+}
+/* tablet */
+@media (min-width: 740px ) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }    
+    .header__cart {
+        padding: 38px;
+    }
+} 
+/* mobile */
+@media (max-width: 739px ) {
+    .hide-on-mobile {
+        display: none;
+    }  
+    .header__cart {
+        width: unset;
+        padding: 0 15px;
+    }
+    .header-with-search {
+        justify-content: space-between;
+    }
+    .pagination_item {
+        margin: 0;
+        height: 28px;
+        font-size: 1.6rem;
+        min-width: 36px;
+    }
+    .app__content {
+        margin: 0 5px;
+    }
+    .header__mobile-search {
+        display: block;
+    }
+    .mobile-category {
+        display: block;
+    }
+    .footer__list-item {
+        margin: 0 10px;
+    }
+    .footer__heading,
+    .footer__list-pay-link ,
+    .footer__down {
+        margin: 0 10px;
+        
+    }
+   
+}

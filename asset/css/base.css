@@ -5,8 +5,9 @@
     --primary-color: #EE4D2D;
     --border-color:#dbdbdb;
     --star-gold-color: #FFCE3E; 
-    --narbar-height: 34px
+    --navbar-height: 340px;
     --header-height: 120px;
+    --header-sort-bar-height: 46px;
 }
 * {
     box-sizing: inherit;
@@ -20,14 +21,7 @@ html {
     line-height: 1.6rem;
     box-sizing: border-box;
 }
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-.grid__full-width {
-    width: 100%;
-}
+
 .grid__row {
     display: flex;
     flex-wrap: wrap;
